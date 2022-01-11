@@ -5,3 +5,56 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+div {
+  float: center;
+}
+
+.textbox {
+  border-radius: 0.5em;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+  background-color: #b8c0c2;
+  padding: 1.5em;
+  width: 50%;
+  height: 50%;
+}
+
+button {
+  border-radius: 0.5em;
+  /* background-color: #b8c0c2; */
+  opacity: 0.85;
+  transition: 0.7s;
+  border: #333;
+  padding: 1em;
+}
+
+button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media screen {
+  .textbox {
+    font-size: 70%;
+    padding: 1em 0.5em;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .textbox {
+    font-size: 100%;
+    padding: 1em 3em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .textbox {
+    font-size: 100%;
+    padding: 1em 5em;
+  }
+}
+
+.footer {
+  bottom: 0;
+}
