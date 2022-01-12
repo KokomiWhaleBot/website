@@ -9,8 +9,19 @@ div {
   float: center;
 }
 
+a {
+  text-decoration: none;
+  color: #333;
+  transition: 0.5s;
+}
+
+a#abc:hover {
+  text-decoration: underline;
+}
+
 .textbox {
   border-radius: 0.5em;
+  margin: 0 auto;
   flex-direction: column;
   align-items: center;
   color: #333;

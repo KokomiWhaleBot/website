@@ -8,11 +8,12 @@
     <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet"/>
   </head>
   <body>
-    <div class="textbox">
-      <h2>Kokomi's Whale</h2>
-      <br></br>
-      <p>blah blah blah</p>
-      <a href="https://discord.gg/RwPRpxEyM5"><button>Join the Discord server!</button></a>
+    <div class="textbox" style="float: center;">
+      <h2 style="display: inline;">Kokomi's Whale</h2>
+      <img src="{{ url_for('static', filename='pfp.jpg') }}" style="vertical-align: middle; border-radius: 35%;" width="50" height="50"/>
+      <br>
+      <p>Kokomi's Whale is a fun and interactive Discord Bot that servers as a mini Genshin Impact game! You can spend Mora, collect weapons, level up characters, and more! Wanna join? <a href="#discord" id="abc">Click the button below!</a></p>
+      <a id="discord" href="https://discord.gg/RwPRpxEyM5"><button>Join the Discord server!</button></a>
     </div>
     
     <script src="{{ url_for('static', filename='script.js') }}"></script>
